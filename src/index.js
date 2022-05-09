@@ -102,3 +102,16 @@ const visionP = document.querySelector(".bottom-content .text-content:nth-of-typ
 
 visionH.textContent = siteContent["main-content"]["vision-h4"];
 visionP.textContent = siteContent["main-content"]["vision-content"];
+
+const contactH = document.querySelector(".contact h4");
+const address = document.querySelector(".contact p");
+const phoneNumber = address.nextElementSibling;
+const email = phoneNumber.nextElementSibling;
+
+contactH.textContent = siteContent["contact"]["contact-h4"];
+address.textContent = siteContent["contact"]["address"];
+phoneNumber.textContent = siteContent["contact"]["phone"];
+email.textContent = siteContent["contact"]["email"];
+
+
+
