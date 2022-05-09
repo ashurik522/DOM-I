@@ -68,3 +68,16 @@ ctaHeader.textContent = "DOM Is Awesome"
 const ctaButton = document.querySelector(".cta-text button");
 ctaButton.textContent = "Get Started";
 
+const ctaImage = document.querySelector("#cta-img");
+ctaImage.src = "http://localhost:9000/img/cta.png" ;
+
+const featuresH = document.querySelector(".top-content h4");
+const featuresP = document.querySelector(".top-content p");
+featuresH.textContent = siteContent["main-content"]["features-h4"];
+featuresP.textContent = siteContent["main-content"]["features-content"];
+
+const aboutH = document.querySelector(".text-content:nth-of-type(2) h4");
+const aboutP = document.querySelector(".text-content:nth-of-type(2) p");
+
+aboutH.textContent = siteContent["main-content"]["about-h4"];
+aboutP.textContent = siteContent["main-content"]["about-content"];
