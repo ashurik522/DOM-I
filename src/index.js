@@ -81,3 +81,24 @@ const aboutP = document.querySelector(".text-content:nth-of-type(2) p");
 
 aboutH.textContent = siteContent["main-content"]["about-h4"];
 aboutP.textContent = siteContent["main-content"]["about-content"];
+
+const midImage = document.querySelector("#middle-img");
+midImage.src = siteContent["images"]["accent-img"];
+
+const servicesH = document.querySelector(".bottom-content h4");
+const servicesP = document.querySelector(".bottom-content p");
+
+servicesH.textContent = siteContent["main-content"]["services-h4"];
+servicesP.textContent = siteContent["main-content"]["services-content"];
+
+const productH = document.querySelector(".bottom-content .text-content:nth-of-type(2) h4");
+const productP = document.querySelector(".bottom-content .text-content:nth-of-type(2) p");
+
+productH.textContent = siteContent["main-content"]["product-h4"];
+productP.textContent = siteContent["main-content"]["product-content"];
+
+const visionH = document.querySelector(".bottom-content .text-content:nth-of-type(3) h4");
+const visionP = document.querySelector(".bottom-content .text-content:nth-of-type(3) p");
+
+visionH.textContent = siteContent["main-content"]["vision-h4"];
+visionP.textContent = siteContent["main-content"]["vision-content"];
