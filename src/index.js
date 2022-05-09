@@ -113,5 +113,8 @@ address.textContent = siteContent["contact"]["address"];
 phoneNumber.textContent = siteContent["contact"]["phone"];
 email.textContent = siteContent["contact"]["email"];
 
+const copyright = document.querySelector("footer a");
+copyright.textContent = siteContent["footer"]["copyright"]
+copyright.className = "bold"
 
 
