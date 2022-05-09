@@ -40,3 +40,31 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
 };
 
 console.log('project wired!')
+
+const navLink1 = document.querySelector("nav a");
+const navLink2 = navLink1.nextElementSibling;
+const navLink3 = navLink2.nextElementSibling;
+const navLink4 = navLink3.nextElementSibling;
+const navLink5 = navLink4.nextElementSibling;
+const navLink6 = navLink5.nextElementSibling;
+
+navLink1.textContent = "Services";
+navLink2.textContent = "Product";
+navLink3.textContent = "Vision";
+navLink4.textContent = "Features";
+navLink5.textContent = "About";
+navLink6.textContent = "Contact";
+
+const italics = document.querySelectorAll("nav a");
+
+italics.forEach(item => item.classList.add("italic"))
+
+const topImage = document.querySelector("#logo-img");
+topImage.src = "http://localhost:9000/img/logo.png";
+
+const ctaHeader = document.querySelector(".cta-text h1");
+ctaHeader.textContent = "DOM Is Awesome"
+
+const ctaButton = document.querySelector(".cta-text button");
+ctaButton.textContent = "Get Started";
+
